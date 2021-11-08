@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Table</title>
+    <title>js-moneygram</title>
 </head>
 <body>
+    <div class="container pt-5">
+        <h1>VALYUTA ALMASHTIRISH</h1>
+        <form action="https://htmlacademy.ru/" method="post">
+            <div class="input-group flex-nowrap">
+                <input type="number" id="input" class="my-5 form-control" placeholder="Pulni kiriting" required>
+            </div>
+    
+            <div class="input-group">
+                <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                  <option selected disabled hidden>Kursni tanlang !</option>
+                  <option value="1">EURO</option>
+                  <option value="2">USD</option>
+                  <option value="3">RUB</option>
+                </select>
+                <button id="form__button" class="btn btn-outline-secondary" type="button">SENT</button>
+            </div>
+        </form>
+
+
+        <script src="./js/bootstrap.bundle.js"></script>
+        <script src="./js/main.js"></script>
+    </div>
    
 </body>
 </html>
